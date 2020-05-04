@@ -1,0 +1,99 @@
+body {
+    background: #000;
+    color: #fff;
+    font-family: "Montserrat";
+    /* margin: 0;
+    padding: auto 200px auto 200px; */
+    position: relative;
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: 380px;
+    margin: 100px auto;
+    /* padding-top: 100px;
+    position: absolute;
+    margin-right: 10px; */
+}
+
+hr {
+    border: none;
+    background-color: #fff;
+    color: #fff;
+    height: 1px;
+    margin: 30px auto;
+    text-align: center;
+    width: 40%;
+}
+
+.container-fluid {
+    padding: 3% 7%;
+}
+
+.navbar {
+    background: #000;
+    color: #fff;
+    padding: 0;
+}
+
+#title {
+    margin: 100px auto;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    text-align: left;
+}
+
+.big-heading {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 3.5rem;
+    height: 100%;
+    line-height: 1.5;
+    /* display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center; */
+}
+
+.mid-section {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.icon {
+    margin: 40px auto;
+}
+
+#milestones {
+    margin: 0 auto 100px auto;
+}
+
+.listing {
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+}
+
+.bottom-section {
+    position: relative;
+    text-align: center;
+    line-height: 2rem;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 1112px) {
+    .big-heading {
+        size: 16px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .title-image {
+        height: 250px;
+        margin-top: 40px;
+        text-align: center;
+    }
+}
